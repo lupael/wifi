@@ -9,6 +9,7 @@ The system was made in 2019 as an experiment for a local WISP network. It is ver
 
   - RouterOS (Mikrotik)
   - PHP
+  - pear2/Net_RouterOS
   - MySQL
   - Redis
   - Composer
