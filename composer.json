@@ -1,0 +1,11 @@
+{
+    "require": {
+        "pear2/net_transmitter": "*@beta",
+        "pear2/net_routeros": "*@beta",
+        "pear2/cache_shm": "*@alpha",
+        "pear2/console_commandline": "*@alpha",
+        "pear2/console_color": "^1.0",
+	"paypal/rest-api-sdk-php": "*",
+	"monotek/minitpl": ">=1.0"
+    }
+}
