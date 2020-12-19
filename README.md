@@ -27,5 +27,7 @@ $ nano dao/config.php
 # Author
 
 Andrej Trcek
+
 Web: http://www.andrejtrcek.com
+
 E-mail: me@andrejtrcek.com
