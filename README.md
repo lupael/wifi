@@ -50,6 +50,8 @@ add address-pool=wifis !idle-timeout !keepalive-timeout mac-cookie-timeout=1d na
 add address-pool=wifis !idle-timeout !keepalive-timeout mac-cookie-timeout=1d name=internetWeek rate-limit=2048k/2048k shared-users=unlimited transparent-proxy=yes
 /ip address add address=10.10.2.1/24 comment="WIFIS Network" interface=Hotspot network=10.10.2.1
 /ip dhcp-server network add address=10.10.2.0/24 comment="WIFIS Network" gateway=10.10.2.1
+/ip dns static add address=10.10.2.1 name=wifis.info type=A
+/ip dns set allow-remote-requests=yes servers=1.1.1.1
 /ip hotspot walled-garden
 add dst-host=wifis.info
 add dst-host=*.paypal.com
