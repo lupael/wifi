@@ -8,6 +8,7 @@ The system was made in 2019 as an experiment for a local WISP network. It is ver
 # Requirements
 
   - RouterOS (Mikrotik)
+  - RouterOS Hotspot package
   - PHP
   - pear2/Net_RouterOS
   - MySQL
@@ -17,7 +18,7 @@ The system was made in 2019 as an experiment for a local WISP network. It is ver
 ### Installation
 
 ```sh
-$ https://github.com/andrejtrcek/wifis.git
+$ git clone https://github.com/andrejtrcek/wifis.git
 $ cd wifis
 $ composer install
 $ mysql -u username -p database_name < wifis.sql
