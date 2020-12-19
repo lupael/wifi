@@ -14,7 +14,7 @@ The system was made in 2019 as an experiment for a local WISP network. It is ver
   - Redis
   - Composer
 
-### Installation
+# Installation
 
 ```sh
 $ git clone https://github.com/andrejtrcek/wifis.git
@@ -24,7 +24,7 @@ $ mysql -u username -p database_name < wifis.sql
 $ nano dao/config.php
 ```
 
-### Author
+# Author
 
 Andrej Trcek
 Web: http://www.andrejtrcek.com
