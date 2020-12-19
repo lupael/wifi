@@ -31,6 +31,11 @@ $ nano dao/config.php
 Install Hotspot package from https://mikrotik.com/download
 
 
+### Replace Hotspot files
+
+Upload and replace auto generated files in the hotspot/ folder on RouterOS.
+
+
 ### Configuration
 
 ```sh
