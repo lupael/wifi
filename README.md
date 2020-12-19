@@ -28,7 +28,7 @@ $ nano dao/config.php
 
 ### Hotspot package
 
-Install Hotspot package from https://mikrotik.com/products
+Install Hotspot package from https://mikrotik.com/download
 
 
 ### Configuration
