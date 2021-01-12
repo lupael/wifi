@@ -61,11 +61,3 @@ add dst-host=*.akamaiedge.net
 add dst-host=paypal.112.2O7.net
 ```
 
-
-# Author
-
-Andrej Trcek
-
-Web: http://www.andrejtrcek.com
-
-E-mail: me@andrejtrcek.com
