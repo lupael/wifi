@@ -1,3 +1,7 @@
 tasks:
   - init: 'echo "TODO: Replace with init/build command"'
-    command: 'echo "TODO: Replace with command to start project"'
+    command:
+$ cd wifis
+$ composer install
+$ mysql -u username -p database_name < wifis.sql
+$ nano dao/config.php
