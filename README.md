@@ -17,11 +17,11 @@ The system was made in 2019 as an experiment for a local WISP network. It is ver
 # Installation
 
 ```sh
-$ git clone https://github.com/andrejtrcek/wifis.git
-$ cd wifis
-$ composer install
-$ mysql -u username -p database_name < wifis.sql
-$ nano dao/config.php
+ git clone https://github.com/andrejtrcek/wifis.git
+ cd wifis
+ composer install
+ mysql -u username -p database_name < wifis.sql
+ nano dao/config.php
 ```
 
 # RouterOS / Mikrotik configuration
